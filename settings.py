@@ -739,7 +739,7 @@ ELASTICSEARCH_HOST = 'localhost'
 ELASTICSEARCH_PORT = 9200
 
 PILLOWTOPS = [ 'corehq.pillows.CasePillow',
-               #'corehq.pillows.ExchangePillow', #todo when merged
+               'corehq.pillows.ExchangePillow', #todo when merged
 
                'corehq.pillows.AuditcarePillow',
                'corehq.pillows.CouchlogPillow',
